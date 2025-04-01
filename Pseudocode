@@ -1,0 +1,38 @@
+BEGIN Hangman Game
+    INITIALIZE Pygame and set up display
+    CREATE letter buttons and load images
+    DEFINE words with hints
+    SELECT a random word and corresponding hint
+
+    WHILE game is running DO
+        DRAW game elements (title, hint, word, buttons, hangman image)
+        CAPTURE user input
+        IF user clicks a letter THEN
+            CHECK if letter is in the word
+            IF correct THEN
+                UPDATE guessed letters
+            ELSE
+                INCREMENT hangman status
+        ENDIF
+        
+        CHECK win condition
+        IF all letters are guessed THEN
+            DISPLAY "You WON!"
+            BREAK
+        ENDIF
+        
+        CHECK lose condition
+        IF hangman status reaches maximum THEN
+            DISPLAY "You LOST! The word was <word>"
+            BREAK
+        ENDIF
+    ENDWHILE
+
+    PROMPT user to retry or quit
+    IF retry THEN
+        RESET game variables
+        RESTART game
+    ELSE
+        EXIT game
+    ENDIF
+END Hangman Game
