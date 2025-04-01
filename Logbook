@@ -1,0 +1,73 @@
+March 1st, 2025
+-Researched Pygame for building a graphical Hangman game.
+
+-Created a new Python project and set up Pygame window.
+
+March 3rd, 2025
+-Added basic display with a title and background color.
+
+-Experimented with fonts and text rendering.
+
+March 5th, 2025
+-Created letter buttons using a loop for A-Z.
+
+-Implemented mouse click detection for button selection.
+
+March 8th, 2025
+-Designed the hangman figure using images for different stages.
+
+-Loaded and displayed hangman images based on incorrect guesses.
+
+March 10th, 2025
+-Created a list of words for the game (initially basic words like "IDE", "PYTHON").
+
+-Implemented random word selection.
+
+March 12th, 2025
+-Coded logic to check if a guessed letter is in the word.
+
+-Updated displayed word to reveal correctly guessed letters.
+
+March 15th, 2025
+-Added win and loss conditions:
+
+Win: If all letters are guessed.
+
+Loss: If the hangman figure is fully drawn.
+
+March 18th, 2025
+-Implemented a function to display win/loss messages.
+
+-Introduced a short delay before restarting or quitting the game.
+
+March 20th, 2025
+-Added more words to the word list.
+
+-Introduced hints to give players clues about the word.
+
+March 23rd, 2025
+-Improved button visibility:
+
+Made clicked letters disappear after selection.
+
+Added visual feedback for selected letters.
+
+March 25th, 2025
+-Fixed a bug where the game did not properly reset after losing.
+
+-Implemented a function to reset the game variables.
+
+March 28th, 2025
+-Added an option to retry or quit the game after winning or losing.
+
+-Ensured the game restarts properly when the player chooses to retry.
+
+March 30th, 2025
+-Refactored the code for better readability and efficiency.
+
+-Ensured the code follows PEP8 style guidelines.
+
+April 1st, 2025
+-Final testing and debugging.
+
+-Verified that all features work as expected.
