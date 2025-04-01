@@ -1,0 +1,7 @@
+| **Input**          | **Process**                                      | **Output**                |
+|--------------------|------------------------------------------------- |---------------------------|
+| User clicks letters| Check if the letter is in the word               | Update guessed letters    |
+|                    | Update hangman status if incorrect guess         | Update hangman image      |
+|                    | Check if all letters are guessed correctly       | Display win message       |
+|                    | Check if hangman status reaches max mistakes     | Display loss message      |
+|                    | Offer option to retry or quit                    | Restart or end game       |
